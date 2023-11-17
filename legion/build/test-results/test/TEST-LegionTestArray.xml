@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="LegionTestArray" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-11-17T11:12:43" hostname="ABSOLUTELEE" time="0.017">
+  <properties/>
+  <testcase name="test1()" classname="LegionTestArray" time="0.015"/>
+  <testcase name="test2()" classname="LegionTestArray" time="0.0"/>
+  <testcase name="test3()" classname="LegionTestArray" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

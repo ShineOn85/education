@@ -1,0 +1,4 @@
+rootProject.name = 'education'
+include 'collection'
+include 'legion'
+
