@@ -4,7 +4,7 @@ package legion;
 import my.list.MyList;
 
 public class Legion {
-    public MyList<Integer> kill(int size, int step, MyList<Integer> legion) {
+    public static MyList<Integer> kill(int size, int step, MyList<Integer> legion) {
         final int stepConst = step;
 
         for (int i = 1; i <= size; i++)

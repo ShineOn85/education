@@ -3,7 +3,7 @@ package my.tree;
 public class Tree {
     private Node root;
 
-    class Node {
+    static class Node {
         Node leftNode;
         Node rightNode;
         Node parent;
