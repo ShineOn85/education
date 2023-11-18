@@ -19,9 +19,4 @@ test {
     useJUnitPlatform()
 }
 
-task collectionJar(type: Jar) {
-    archiveFileName = 'collection.jar'
-    from sourceSets.main.output
-    include "my/list/*"
-}
 

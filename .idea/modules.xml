@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/collection/education.collection.main.iml" filepath="$PROJECT_DIR$/.idea/modules/collection/education.collection.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/legion/education.legion.main.iml" filepath="$PROJECT_DIR$/.idea/modules/legion/education.legion.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/legion/education.legion.test.iml" filepath="$PROJECT_DIR$/.idea/modules/legion/education.legion.test.iml" />
+    </modules>
+  </component>
+</project>

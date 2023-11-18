@@ -10,9 +10,13 @@ repositories {
 }
 
 dependencies {
-    implementation(project(':collection'))
+    //compile project(':collection')
+    //implementation(project(':collection'))
+
+    implementation project(path: ':collection', configuration: 'shadow')
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.9.0'
+    // https://mvnrepository.com/artifact/com.android.tools.build/gradle
 }
 
 test {
@@ -20,12 +24,3 @@ test {
 }
 
 
-task legionJar(type: Jar) {
-    archiveFileName = 'legion.jar'
-    from sourceSets.main.output
-    include "legion/*"
-    manifest {
-        attributes(
-                'Main-Class': 'legion.Main')
-    }
-}
